@@ -1,0 +1,204 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #7C3238;
+}
+
+.search-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #ffffff2d;
+  height: fit-content;
+  border-radius: 10px;
+  padding: 0;
+  opacity: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-box{
+  background-color: #ffffffb4;
+}
+
+.search-box:hover > .search-text {
+  width: 240px;
+  padding: 0 6px;
+}
+
+.search-box:hover > .search-btn {
+  background: white;
+  color: black;
+}
+
+.search-btn {
+  color: #e84118;
+  float: right;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 50%;
+  background: #2f3640;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.search-btn > i {
+  font-size: 30px;
+}
+
+.search-text {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+}
+
+
+/* button */
+
+.Explore-Button {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 5px;
+  margin: 0px;
+  gap: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: linear-gradient(120deg, rgb(15, 78, 500), rgb(96, 400, 300));
+}
+
+.svgIcon {
+  height: 25px;
+  transition-duration: 1.5s;
+}
+
+.bell path {
+  fill: rgb(19, 19, 19);
+}
+
+.search-box:hover {
+  /* background-color: rgb(192, 255, 20); */
+  transition-duration: .5s;
+}
+
+.search-box:active {
+  transform: scale(0.97);
+  transition-duration: .2s;
+}
+
+.search-box:hover .svgIcon {
+  transform: rotate(250deg);
+  transition-duration: 1.5s;
+}
+
+
+
+.text {
+  color: linear-gradient(120deg, rgb(15, 78, 500), rgb(96, 400, 300));
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+
+/* For place holder */
+/* do not group these rules */
+*::-webkit-input-placeholder {
+  color: red;
+}
+*:-moz-placeholder {
+  /* FF 4-18 */
+  color: red;
+  opacity: 1;
+}
+*::-moz-placeholder {
+  /* FF 19+ */
+  color: red;
+  opacity: 1;
+}
+*:-ms-input-placeholder {
+  /* IE 10+ */
+  color: red;
+}
+*::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: red;
+}
+*::placeholder {
+  /* modern browser */
+  color: red;
+}
+
+
+/* ripple efect
+.ripple {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.ripple::before,
+.ripple::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20%;
+    width: 0;
+    height: 0;
+    border: 10px solid rgba(255, 255, 255, 0.5); 
+    opacity: 0.5;
+    animation: ripple-expand 3s linear infinite;
+    box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.5); 
+}
+
+.ripple::before {
+    animation-delay: 0s;
+}
+
+.ripple::after {
+    animation-delay: 1s; 
+}
+
+@keyframes ripple-expand {
+    0% {
+        width: 0;
+        height: 0;
+        opacity: 0.5;
+    }
+    50% {
+        width: 400px; 
+        height: 400px; 
+        opacity: 0;
+    }
+    100% {
+        width: 800px; 
+        height: 800px; 
+        opacity: 0;
+    }
+} */
