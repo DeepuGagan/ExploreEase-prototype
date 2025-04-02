@@ -15,11 +15,11 @@ function MasonryGridGallery() {
           <div className="relative hover:scale-[104%] hover:drop-shadow-3xl">
             <img
               className="h-auto max-w-full rounded-lg object-cover  brightness-50"
-              src="https://images.unsplash.com/photo-1545126178-862cdb469409?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGphaXB1cnxlbnwwfDF8MHx8fDA%3D"
+              src="https://images.unsplash.com/photo-1504731231146-c0f65dc6a950?q=80"
               alt="gallery-photo"
             />
             <div className="absolute inset-0 flex items-center justify-center">
-              <h2 className="text-3xl font-bold text-white text-center">Jaipur</h2>
+              <h2 className="text-3xl font-bold text-white text-center">Los Angeles</h2>
             </div>
           </div>
           <div className="relative hover:scale-[104%] hover:drop-shadow-3xl">
@@ -35,11 +35,11 @@ function MasonryGridGallery() {
           <div className="relative hover:scale-[104%] hover:drop-shadow-3xl">
             <img
               className="h-auto max-w-full rounded-lg object-cover  brightness-50"
-              src="https://images.unsplash.com/photo-1623439844752-524658b16ce6"
+              src="https://images.unsplash.com/photo-1603262110263-fb0112e7cc33"
               alt="gallery-photo"
             />
             <div className="absolute inset-0 flex items-center justify-center">
-              <h2 className="text-3xl font-bold text-white text-center">Istanbul</h2>
+              <h2 className="text-3xl font-bold text-white text-center">Jaipur</h2>
             </div>
           </div>
         </div>
@@ -67,11 +67,11 @@ function MasonryGridGallery() {
           <div className="relative hover:scale-[104%] hover:drop-shadow-3xl">
             <img
               className="h-auto max-w-full rounded-lg object-cover  brightness-50"
-              src="https://images.unsplash.com/photo-1569230516306-5a8cb5586399"
+              src="https://images.unsplash.com/photo-1538970272646-f61fabb3a8a2"
               alt="gallery-photo"
             />
             <div className="absolute inset-0 flex items-center justify-center">
-              <h2 className="text-3xl font-bold text-white text-center">Rome</h2>
+              <h2 className="text-3xl font-bold text-white text-center">New York</h2>
             </div>
           </div>
         </div>
@@ -122,21 +122,21 @@ function MasonryGridGallery() {
           <div className="relative hover:scale-[104%] hover:drop-shadow-3xl">
             <img
               className="h-auto max-w-full rounded-lg object-cover  brightness-50"
-              src="https://images.unsplash.com/photo-1629976619376-3bd26d2076cf"
+              src="https://images.unsplash.com/photo-1542223616-9de9adb5e3e8"
               alt="gallery-photo"
             />
             <div className="absolute inset-0 flex items-center justify-center">
-              <h2 className="text-3xl font-bold text-white text-center">Hurghada</h2>
+              <h2 className="text-3xl font-bold text-white text-center">Seattle</h2>
             </div>
           </div>
           <div className="relative hover:scale-[104%] hover:drop-shadow-3xl">
             <img
               className="h-auto max-w-full rounded-lg object-cover  brightness-50"
-              src="https://images.unsplash.com/photo-1552133457-ce1d2d33cdfb"
+              src="https://images.unsplash.com/photo-1551283895-bad586708963"
               alt="gallery-photo"
             />
             <div className="absolute inset-0 flex items-center justify-center">
-              <h2 className="text-3xl font-bold text-white text-center">Mumbai</h2>
+              <h2 className="text-3xl font-bold text-white text-center">San Francisco</h2>
             </div>
           </div>
         </div>
