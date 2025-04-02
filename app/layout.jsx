@@ -1,8 +1,8 @@
 import '@/styles/globals.css'
-import Head from 'next/head'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
-
+import { Providers } from './providers'
+import {Divider} from "@nextui-org/divider";
 
 export const metadata = {
   title: 'Explore Ease',
@@ -11,15 +11,18 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-{/* <Head>
+    <html lang="en" className='light'>
+      {/* <Head>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
 </Head> */}
       <body>
-        <Header />
-        {children}
-        <Footer />
-      {/* <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script> */}
+        <Providers>
+          <Header />
+          {children}
+          {/* <Divider  /> */}
+          <Footer />
+          {/* <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script> */}
+        </Providers>
       </body>
     </html>
   )
