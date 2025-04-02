@@ -1,0 +1,35 @@
+/* Include Tailwind in your CSS
+Open the ./styles/globals.css file that Next.js generates for you by default and use the @tailwind directive to include Tailwind’s base, components, and utilities styles, replacing the original file contents: */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* *::-webkit-input-placeholder {
+  color: red;
+} */
+
+/* *:-moz-placeholder {
+  color: red;
+  opacity: 1;
+}
+
+*::-moz-placeholder {
+  color: red;
+  opacity: 1;
+}
+
+*:-ms-input-placeholder {
+  color: red;
+}
+
+*::-ms-input-placeholder {
+  color: red;
+}
+
+*::placeholder {
+  color: red;
+} */
