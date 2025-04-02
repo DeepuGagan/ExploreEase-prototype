@@ -1,5 +1,7 @@
 'use client'
 import React from 'react'
+import Image from 'next/image'
+import logo from "@/public/assets/icons/exploreEaseLogo.png";
 
 const Footer = () => {
   const footerNavs = [
@@ -73,7 +75,7 @@ const Footer = () => {
       <div className="gap-6 justify-between md:flex">
         <div className="flex-1">
           <div className="max-w-xs">
-            <img src="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=626&ext=jpg&ga=GA1.1.1046588121.1714511299&semt=sph" className="w-32" />
+          <Image src = {logo} alt="logo" className="w-94" />
             <p className="leading-relaxed mt-2 text-[15px]">
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
             </p>
