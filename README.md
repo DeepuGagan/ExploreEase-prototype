@@ -4,7 +4,25 @@
 
 ## 🌟 Overview
 
-ExploreEase is a prototype of a comprehensive travel planning platform designed to simplify trip organization and discovery. Built with Next.js and modern web technologies, it offers an intuitive interface for travelers to discover destinations, plan itineraries, and book experiences with ease.
+ExploreEase is a prototype of a comprehensive travel planning platform designed to simplify trip organization and discovery. **Created as part of an organizational hackathon/innovation initiative**, this project demonstrates rapid ideation and implementation of travel technology concepts. Built with Next.js and modern web technologies, it offers an intuitive interface for travelers to discover destinations, plan itineraries, and book experiences with ease.
+
+
+## 🚧 Development Status & Roadmap
+
+ExploreEase is under active development with the following roadmap:
+
+- **Hackathon Origin**: Developed during an organizational innovation initiative with time constraints
+- **Current Phase**: Functional prototype with core features and Paris as the showcase destination
+- **Next Phase**: Expanding destination coverage and enhancing real-time data integration
+- **Future Vision**: Full-scale platform with global coverage and advanced personalization
+
+While most major features are implemented, some minor functionalities are still being refined. The prototype demonstrates the concept with:
+
+
+- Simulated backend services using structured mock data
+- AI-generated recommendations (currently limited by API key restrictions)
+- Showcase implementation focusing on Paris to demonstrate the full experience
+
 
 ### ℹ️ Project Origin & Status
 
@@ -94,19 +112,6 @@ ExploreEase is built with a mobile-first approach, ensuring a seamless experienc
 - Tablet-friendly layouts
 - Full desktop experience
 
-## 🚧 Development Status & Roadmap
-
-ExploreEase is under active development with the following roadmap:
-
-- **Current Phase**: Functional prototype with core features and Paris as the showcase destination
-- **Next Phase**: Expanding destination coverage and enhancing real-time data integration
-- **Future Vision**: Full-scale platform with global coverage and advanced personalization
-
-While most major features are implemented, some minor functionalities are still being refined. The prototype demonstrates the concept with:
-
-- Simulated backend services using structured mock data
-- AI-generated recommendations (currently limited by API key restrictions)
-- Showcase implementation focusing on Paris to demonstrate the full experience
 
 ## 🚢 Deployment
 
