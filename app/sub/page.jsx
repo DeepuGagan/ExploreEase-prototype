@@ -30,7 +30,7 @@ const page = () => {
                                     <div className="text-slate-900 dark:text-slate-200 font-semibold mb-1">Essential</div>
                                     <div className="inline-flex items-baseline mb-2">
                                         <span className="text-slate-900 dark:text-slate-200 font-bold text-3xl">$</span>
-                                        <span className="text-slate-900 dark:text-slate-200 font-bold text-4xl" x-text={isAnnual ? '29' : '35'}></span>
+                                        <span className="text-slate-900 dark:text-slate-200 font-bold text-4xl" x-text={isAnnual ? '29' : '35'}>{isAnnual ? '29' : '35'}</span>
                                         <span className="text-slate-500 font-medium">/mo</span>
                                     </div>
                                     <div className="text-sm text-slate-500 mb-5">There are many variations available, but the majority have suffered.</div>

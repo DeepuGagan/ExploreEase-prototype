@@ -1,6 +1,9 @@
-import React from 'react'
+'use client'
+import React, {useState,useEffect} from 'react'
 
 import '@/styles/weather.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSun, faCloud, faSmog, faSnowflake,faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
 
 // const Weather = () => {
@@ -118,17 +121,58 @@ import '@/styles/weather.css'
 //   )
 // }
 
-const Weather = () => {
+const getRandomTemperature = () => {
+  return Math.floor(Math.random() * (31 - 24 + 1)) + 24;
+};
+
+const getWeatherCondition = (temperature) => {
+  if (temperature >= 28 && temperature <= 31) {
+    return "Sunny";
+  } else if (temperature >= 24 && temperature <= 27) {
+    // To differentiate between Cloudy, Misty, and Chilly in the same range,
+    // you can add some randomness
+    const conditions = ["Cloudy", "Misty", "Chilly"];
+    return conditions[Math.floor(Math.random() * conditions.length)];
+  }
+};
+
+const getWeatherIcon = (condition) => {
+  switch (condition) {
+    case "Sunny":
+      return faSun;
+    case "Cloudy":
+      return faCloud;
+    case "Misty":
+      return faSmog;
+    case "Chilly":
+      return faSnowflake;
+    default:
+      return faCloud;
+  }
+};
+
+const Weather = ({noOfDays, setNoOfDays,location}) => {
+  const [weatherData, setWeatherData] = useState([]);
+
+  useEffect(() => {
+    const data = Array.from({ length: noOfDays }, (_, index) => {
+      const temperature = getRandomTemperature();
+      const condition = getWeatherCondition(temperature);
+      const icon = getWeatherIcon(condition);
+      return { temperature, condition, icon, day: index + 1 };
+    });
+    setWeatherData(data);
+  }, [noOfDays]);
   return (
-    <div className="w-[1000px] bg-white p-10 border-4 rounded-xl ring-8 ring-white ring-opacity-20 drop-shadow-xl hover:scale-105" >
+    <div className="w-[1050px] bg-white p-10 border-4 rounded-xl ring-8 ring-white ring-opacity-20 drop-shadow-xl hover:scale-105" >
       <div className="flex justify-between">
         <div className="flex flex-col">
           <span className="text-6xl font-bold">29°C</span>
-          <span className="font-semibold mt-1 text-gray-500">Mudjimba, QLD</span>
+          <span className="font-semibold mt-1 text-gray-500">{location.replace(location[0],location[0].toUpperCase() )},  Europe</span>
         </div>
         <svg className="h-24 w-24 fill-current text-yellow-400" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none" /><path d="M6.76 4.84l-1.8-1.79-1.41 1.41 1.79 1.79zM1 10.5h3v2H1zM11 .55h2V3.5h-2zm8.04 2.495l1.408 1.407-1.79 1.79-1.407-1.408zm-1.8 15.115l1.79 1.8 1.41-1.41-1.8-1.79zM20 10.5h3v2h-3zm-8-5c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm0 10c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm-1 4h2v2.95h-2zm-7.45-.96l1.41 1.41 1.79-1.8-1.41-1.41z" /></svg>
       </div>
-      <div className="flex justify-between mt-12">
+      {/* <div className="flex justify-between mt-12">
         <div className="flex flex-col items-center">
           <span className="font-semibold text-lg">29°C</span>
           <svg className="h-10 w-10 fill-current text-gray-400 mt-3" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none" /><path d="M6.76 4.84l-1.8-1.79-1.41 1.41 1.79 1.79zM1 10.5h3v2H1zM11 .55h2V3.5h-2zm8.04 2.495l1.408 1.407-1.79 1.79-1.407-1.408zm-1.8 15.115l1.79 1.8 1.41-1.41-1.8-1.79zM20 10.5h3v2h-3zm-8-5c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm0 10c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm-1 4h2v2.95h-2zm-7.45-.96l1.41 1.41 1.79-1.8-1.41-1.41z" /></svg>
@@ -159,6 +203,20 @@ const Weather = () => {
           <span className="font-semibold mt-1 text-sm">7:00</span>
           <span className="text-xs font-semibold text-gray-400">PM</span>
         </div>
+      </div> */}
+      <div className="flex justify-between my-12 overflow-scroll w-92 gap-24 ">
+      {noOfDays > 0 ?
+      weatherData.map(({ temperature, condition, icon, day }) => (
+        <div className="flex flex-col items-center gap-1" key={day}>
+          <span className="font-semibold text-lg">{temperature}°C</span>
+          <FontAwesomeIcon className="h-10 w-10 text-gray-400 mt-3" icon={icon} />
+          <span className="font-semibold text-xs">Day {day}</span>
+          <span className="text-xs font-bold text-gray-400">{condition}</span>
+        </div>
+      ))
+    :
+    <div className="flex justify-between mt-12 text-xl taxt-slate-400" ><FontAwesomeIcon icon={faArrowLeft} />    .   .To begin planning your perfect getaway, please select the start and end dates of your trip.</div>
+    }
       </div>
     </div>
   )

@@ -1,9 +1,9 @@
 'use client'
-import React from "react";
+import React, { useEffect } from "react";
 import { RangeCalendar, Radio, RadioGroup, Button, ButtonGroup, cn } from "@nextui-org/react";
 import { today, getLocalTimeZone, startOfWeek, startOfMonth, endOfWeek, endOfMonth, isWeekend } from "@internationalized/date";
 import { useLocale } from "@react-aria/i18n";
-
+import { calculateNumberOfDays } from "@/utils/logic";
 // function DaysSection12() {
 //   let [value, setValue] = React.useState({
 //     start: today(getLocalTimeZone()),
@@ -121,15 +121,26 @@ import { useLocale } from "@react-aria/i18n";
 
 
 
-function App() {
+function App({noOfDays, setNoOfDays}) {
+  // let [value, setValue] = React.useState({
+  //   start: today(getLocalTimeZone()),
+  //   end: today(getLocalTimeZone()).add({weeks: 1, days: 3}),
+  // });
   let [value, setValue] = React.useState({
     start: today(getLocalTimeZone()),
-    end: today(getLocalTimeZone()).add({weeks: 1, days: 3}),
+    end: today(getLocalTimeZone()),
   });
   let [focusedValue, setFocusedValue] = React.useState(today(getLocalTimeZone()));
   const { start: { year: startYear, month: startMonth, day: startDay, }, end: { year: endYear, month: endMonth, day: endDay, } } = value
+  useEffect(()=>{
+const daysCount = calculateNumberOfDays({startYear, startMonth, startDay,endYear, endMonth, endDay, })
+    setNoOfDays(daysCount)
+  }, [value])
+
 console.log({startYear, startMonth, startDay,endYear, endMonth, endDay, });
   let {locale} = useLocale();
+
+
 
   let now = today(getLocalTimeZone());
   let nextMonth = now.add({months: 1});
@@ -239,7 +250,7 @@ console.log({startYear, startMonth, startDay,endYear, endMonth, endDay, });
 
 
 
-export default function DaysSection() {
+export default function DaysSection({noOfDays, setNoOfDays}) {
   let { locale } = useLocale();
 
   return (
@@ -251,7 +262,7 @@ export default function DaysSection() {
         onChange={(e)=>console.log(e)}
       />  */}
       {/* <DaysSection12 /> */}
-      <App /> 
+      <App noOfDays={noOfDays} setNoOfDays={setNoOfDays} /> 
     </>
 
   );

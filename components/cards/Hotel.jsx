@@ -22,7 +22,7 @@ const Hotel = () => {
     return (
         <>
             {Array(9).fill('item').map((item, index) => 
-                <Card key={index} className="w-full max-w-[26rem] shadow-lg hover:scale-105 hover:drop-shadow-2xl">
+                <Card key={index} className="w-full max-w-[25rem]  shadow-lg hover:scale-105 hover:drop-shadow-2xl">
                     <CardHeader floated={false} color="blue-gray">
                         <img
                             src="https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
