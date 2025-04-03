@@ -1,7 +1,6 @@
 'use client'
 import React, { useState, useEffect } from 'react';
 import '@/styles/header.css'
-// import 'bootstrap/dist/css/bootstrap.css';
 
 
 // const Header = () => {
@@ -12,7 +11,7 @@ import '@/styles/header.css'
 
 const Header = () => {
   const [isNavBlack, setIsNavBlack] = useState(false);
-  const [isMenuActive, setIsMenuActive] = useState(false);
+  // const [isMenuActive, setIsMenuActive] = useState(false);
 
   useEffect(() => {
     function handleScroll() {
@@ -30,25 +29,17 @@ const Header = () => {
     };
   }, []);
 
-  const handleMenuClick = () => {
-    setIsMenuActive(!isMenuActive);
-  };
+  // const handleMenuClick = () => {
+  //   setIsMenuActive(!isMenuActive);
+  // };
 
   return (
     <>
-      <div className="responsive-bar">
-        <div className="logo">
-          <img src="https://images.app.goo.gl/zNnfEw3uksFcS5iG7" alt="logo" />
-        </div>
-        <div className="menu" onClick={handleMenuClick}>
-          <h4>Menu</h4>
-        </div>
-      </div>
       <nav className={isNavBlack ? 'black nav-item-container' : ''}>
         <div className="logo">
-          <img src="http://www.mhf.org.au/media/zoo/images/yourlogohere_2cb8c31ab01096e7842d781ac311a776.png" alt="logo" />
+          <img src="https://source.unsplash.com/apple-logo-on-blue-surface-bIgpii04UIg" alt="logoooo" />
         </div>
-        <ul className={isMenuActive ? 'active ul-container' : ''}>
+        <ul >
           <li><a href="#">Home</a></li>
           <li><a href="#">About us</a></li>
           <li><a href="#">Portfolio</a></li>
@@ -56,14 +47,6 @@ const Header = () => {
           <li><a href="#">Contact Us</a></li>
         </ul>
       </nav>
-      <section className="sec1"></section>
-      <section className="content">
-        {/* Your content here */}
-      </section>
-      <section className="sec2"></section>
-      <section className="content">
-        {/* Your content here */}
-      </section>
     </>
   );
 }
