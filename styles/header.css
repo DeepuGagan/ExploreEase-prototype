@@ -13,17 +13,17 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  height: 80px;
+  height: 100px;
   padding: 10px 100px;
   box-sizing: border-box;
   transition: .5s;
-  background: rgba(28, 28, 28, .3) !important;
+  background: rgba(0, 0, 0, 0.452) !important;
   z-index: 10;
 }
 
 nav.black {
-  background: rgba(28, 28, 28, .9) !important;
-  height: 60px;
+  background: rgba(255, 255, 255, 0.924) !important;
+  height: 70px;
   padding: 10px 50px;
 }
 
