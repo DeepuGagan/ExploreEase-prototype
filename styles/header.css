@@ -32,7 +32,8 @@ nav .logo {
 }
 
 nav .logo img {
-  height: 80px;
+  height: 60px;
+  width: 150px;
   transition: .5s;
 }
 
@@ -110,7 +111,7 @@ section.sec2 {
 
   .responsive-bar .logo img {
     float: left;
-    height: 50px;
+    /* height: 1%; */
   }
 
   .responsive-bar .menu h4 {

@@ -1,8 +1,8 @@
 'use client'
 import React, { useState, useEffect } from 'react';
 import '@/styles/header.css'
-
-
+import logo from "@/public/assets/icons/exploreEaseLogo.png";
+import Image from 'next/image';
 // const Header = () => {
 //     return (
 //       <h1 >Header</h1>
@@ -37,7 +37,7 @@ const Header = () => {
     <>
       <nav className={isNavBlack ? 'black nav-item-container' : ''}>
         <div className="logo">
-          <img src="https://source.unsplash.com/apple-logo-on-blue-surface-bIgpii04UIg" alt="logoooo" />
+          <Image src={logo} alt="logoooo" />
         </div>
         <ul >
           <li><a href="#">Home</a></li>

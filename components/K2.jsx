@@ -68,7 +68,7 @@ f
                   <Chip size="sm" color="info" className='scale-75'>Primary</Chip>
                   <p className='text-sm font-semibold' >header name goes here</p>
                   <Rating value={4} className='scale-50 content-start m-[-30px]'/>
-                  <p className='text-xs font-thin' >&#128343; time</p>
+                  <p className='text-xs font-thin' >&#128343; 2hr</p>
                   <div className='flex flex-row gap-4 justify-between'>
                     <p className='text-sm font-medium content-center flex-start'>$ 16789</p>
                     <Link href={`/someLink`} >

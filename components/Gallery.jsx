@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function MasonryGridGallery() {
   return (
     <>
@@ -13,125 +14,135 @@ function MasonryGridGallery() {
         <div className="grid gap-4">
           <div className="relative hover:scale-[104%] hover:drop-shadow-3xl">
             <img
-              className="h-auto max-w-full rounded-lg object-cover object-center brightness-50"
-              src="https://images.unsplash.com/photo-1432462770865-65b70566d673?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
+              className="h-auto max-w-full rounded-lg object-cover  brightness-50"
+              src="https://images.unsplash.com/photo-1545126178-862cdb469409?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGphaXB1cnxlbnwwfDF8MHx8fDA%3D"
               alt="gallery-photo"
             />
             <div className="absolute inset-0 flex items-center justify-center">
-              <h2 className="text-3xl font-bold text-white text-center">Location</h2>
+              <h2 className="text-3xl font-bold text-white text-center">Jaipur</h2>
             </div>
           </div>
           <div className="relative hover:scale-[104%] hover:drop-shadow-3xl">
             <img
-              className="h-auto max-w-full rounded-lg object-cover object-center brightness-50"
-              src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80"
+              className="h-auto max-w-full rounded-lg object-cover  brightness-50"
+              src="https://images.unsplash.com/photo-1559554498-dfe2798aa518?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3dpemVybGFuZHxlbnwwfDF8MHx8fDA%3D"
               alt="gallery-photo"
             />
             <div className="absolute inset-0 flex items-center justify-center">
-              <h2 className="text-3xl font-bold text-white text-center">Location</h2>
+              <h2 className="text-3xl font-bold text-white text-center">Switzerland</h2>
             </div>
           </div>
           <div className="relative hover:scale-[104%] hover:drop-shadow-3xl">
             <img
-              className="h-auto max-w-full rounded-lg object-cover object-center brightness-50"
-              src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
+              className="h-auto max-w-full rounded-lg object-cover  brightness-50"
+              src="https://images.unsplash.com/photo-1623439844752-524658b16ce6"
               alt="gallery-photo"
             />
             <div className="absolute inset-0 flex items-center justify-center">
-              <h2 className="text-3xl font-bold text-white text-center">Location</h2>
-            </div>
-          </div>
-        </div>
-        <div className="grid gap-4">
-          {/* Other images */}
-          <div className="relative hover:scale-[104%] hover:drop-shadow-3xl">
-            <img
-              className="h-auto max-w-full rounded-lg object-cover object-center brightness-50"
-              src="https://images.unsplash.com/photo-1552960562-daf630e9278b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-              alt="gallery-photo"
-            />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <h2 className="text-3xl font-bold text-white text-center">Location</h2>
-            </div>
-          </div>
-          <div className="relative hover:scale-[104%] hover:drop-shadow-3xl">
-            <img
-              className="h-auto max-w-full rounded-lg object-cover object-center brightness-50"
-              src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
-              alt="gallery-photo"
-            />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <h2 className="text-3xl font-bold text-white text-center">Location</h2>
-            </div>
-          </div>
-          <div className="relative hover:scale-[104%] hover:drop-shadow-3xl">
-            <img
-              className="h-auto max-w-full rounded-lg object-cover object-center brightness-50"
-              src="https://docs.material-tailwind.com/img/team-3.jpg"
-              alt="gallery-photo"
-            />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <h2 className="text-3xl font-bold text-white text-center">Location</h2>
-            </div>
-          </div>
-        </div>
-        <div className="grid gap-4">
-          {/* Other images */}
-          <div className="relative hover:scale-[104%] hover:drop-shadow-3xl">
-            <img
-              className="h-auto max-w-full rounded-lg object-cover object-center brightness-50"
-              src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
-              alt="gallery-photo"
-            />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <h2 className="text-3xl font-bold text-white text-center">Location</h2>
-            </div>
-          </div>
-          <div className="relative hover:scale-[104%] hover:drop-shadow-3xl">
-            <img
-              className="h-auto max-w-full rounded-lg object-cover object-center brightness-50"
-              src="https://docs.material-tailwind.com/img/team-3.jpg"
-              alt="gallery-photo"
-            />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <h2 className="text-3xl font-bold text-white text-center">Location</h2>
-            </div>
-          </div>
-          <div className="relative hover:scale-[104%] hover:drop-shadow-3xl">
-            <img
-              className="h-auto max-w-full rounded-lg object-cover object-center brightness-50"
-              src="https://images.unsplash.com/photo-1552960562-daf630e9278b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-              alt="gallery-photo"
-            />
-            <div className="absolute inset-0 flex items-center justify-center">
-              <h2 className="text-3xl font-bold text-white text-center">Location</h2>
+              <h2 className="text-3xl font-bold text-white text-center">Istanbul</h2>
             </div>
           </div>
         </div>
         <div className="grid gap-4">
           <div className="relative hover:scale-[104%] hover:drop-shadow-3xl">
             <img
-              className="h-auto max-w-full rounded-lg object-cover object-center brightness-50"
-              src="https://images.unsplash.com/photo-1552960562-daf630e9278b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+              className="h-auto max-w-full rounded-lg object-cover  brightness-50"
+              src="https://images.unsplash.com/photo-1587691254941-bbd1faa13154"
               alt="gallery-photo"
             />
             <div className="absolute inset-0 flex items-center justify-center">
-              <h2 className="text-3xl font-bold text-white text-center">Location</h2>
+              <h2 className="text-3xl font-bold text-white text-center">Krabi</h2>
             </div>
           </div>
           <div className="relative hover:scale-[104%] hover:drop-shadow-3xl">
             <img
-              className="h-auto max-w-full rounded-lg object-cover object-center brightness-50"
-              src="https://images.unsplash.com/photo-1629367494173-c78a56567877?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=927&q=80"
+              className="h-auto max-w-full rounded-lg object-cover  brightness-50"
+              src="https://images.unsplash.com/photo-1590716209211-ea74d5f63573?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8c3lkbmV5fGVufDB8MXwwfHx8MA%3D%3D"
               alt="gallery-photo"
             />
             <div className="absolute inset-0 flex items-center justify-center">
-              <h2 className="text-3xl font-bold text-white text-center">Location</h2>
+              <h2 className="text-3xl font-bold text-white text-center">Sydney</h2>
+            </div>
+          </div>
+          <div className="relative hover:scale-[104%] hover:drop-shadow-3xl">
+            <img
+              className="h-auto max-w-full rounded-lg object-cover  brightness-50"
+              src="https://images.unsplash.com/photo-1569230516306-5a8cb5586399"
+              alt="gallery-photo"
+            />
+            <div className="absolute inset-0 flex items-center justify-center">
+              <h2 className="text-3xl font-bold text-white text-center">Rome</h2>
+            </div>
+          </div>
+        </div>
+        <div className="grid gap-4">
+        <div className="relative hover:scale-[104%] hover:drop-shadow-3xl">
+            <img
+              className="h-auto max-w-full rounded-lg object-cover  brightness-50"
+              src="https://images.unsplash.com/photo-1522547902298-51566e4fb383"
+              alt="gallery-photo"
+            />
+            <div className="absolute inset-0 flex items-center justify-center">
+              <h2 className="text-3xl font-bold text-white text-center">Tokyo</h2>
+            </div>
+          </div>
+          <div className="relative hover:scale-[104%] hover:drop-shadow-3xl">
+            <img
+              className="h-auto max-w-full rounded-lg object-cover  brightness-50"
+              src="https://images.unsplash.com/photo-1464790719320-516ecd75af6c"
+              alt="gallery-photo"
+            />
+            <div className="absolute inset-0 flex items-center justify-center">
+              <h2 className="text-3xl font-bold text-white text-center">Barcelona</h2>
+            </div>
+          </div>
+
+          <div className="relative hover:scale-[104%] hover:drop-shadow-3xl">
+            <img
+              className="h-auto max-w-full rounded-lg object-cover  brightness-50"
+              src="https://images.unsplash.com/photo-1602642977157-b7c8b8003afd"
+              alt="gallery-photo"
+            />
+            <div className="absolute inset-0 flex items-center justify-center">
+              <h2 className="text-3xl font-bold text-white text-center">Cambodia</h2>
+            </div>
+          </div>
+        </div>
+        <div className="grid gap-4">
+        <div className="relative hover:scale-[104%] hover:drop-shadow-3xl">
+            <img
+              className="h-auto max-w-full rounded-lg object-cover  brightness-50"
+              src="https://images.unsplash.com/photo-1486299267070-83823f5448dd?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8bG9uZG9ufGVufDB8MHwwfHx8MA%3D%3D"
+              alt="gallery-photo"
+            />
+            <div className="absolute inset-0 flex items-center justify-center">
+              <h2 className="text-3xl font-bold text-white text-center">London</h2>
+            </div>
+          </div>
+          <div className="relative hover:scale-[104%] hover:drop-shadow-3xl">
+            <img
+              className="h-auto max-w-full rounded-lg object-cover  brightness-50"
+              src="https://images.unsplash.com/photo-1629976619376-3bd26d2076cf"
+              alt="gallery-photo"
+            />
+            <div className="absolute inset-0 flex items-center justify-center">
+              <h2 className="text-3xl font-bold text-white text-center">Hurghada</h2>
+            </div>
+          </div>
+          <div className="relative hover:scale-[104%] hover:drop-shadow-3xl">
+            <img
+              className="h-auto max-w-full rounded-lg object-cover  brightness-50"
+              src="https://images.unsplash.com/photo-1552133457-ce1d2d33cdfb"
+              alt="gallery-photo"
+            />
+            <div className="absolute inset-0 flex items-center justify-center">
+              <h2 className="text-3xl font-bold text-white text-center">Mumbai</h2>
             </div>
           </div>
         </div>
       </div>
     </>
+
   );
 }
 
