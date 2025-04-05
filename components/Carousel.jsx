@@ -185,12 +185,12 @@ function App() {
 // };
 
 
-const Place = ({ name, image, alt, tagline }) => {
+const Place = ({ name, image, alt, tagline, customHeight }) => {
   return (
-    <article className="relative isolate flex flex-col flex-auto justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 w-96 mx-6 my-4 transition duration-300 ease-in-out hover:scale-110 hover:shadow-lg">
+    <article className={`relative  isolate flex flex-col flex-auto justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40 w-96 mx-6 my-4 transition duration-300 ease-in-out hover:scale-110 hover:shadow-lg ${customHeight ? 'h-[600px]':''}`}>
       <img
         alt={alt}
-        className="absolute inset-0 h-full w-full object-cover"
+        className={`absolute inset-0 w-full object-cover ${customHeight ? 'h-[600px]':''}`}
         src={image}
       />
       <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40" />
@@ -206,7 +206,7 @@ const Place = ({ name, image, alt, tagline }) => {
 
 
 
-const Carousel = ({ heading, isTagLineNeeded, data }) => {
+const Carousel = ({ heading, isTagLineNeeded, data ,customHeight}) => {
 
   const [scrollPosition, setScrollPosition] = useState(0);
   const [count, setCount] = useState(0)
@@ -267,6 +267,7 @@ const Carousel = ({ heading, isTagLineNeeded, data }) => {
                   image={item.image}
                   alt={item.alt}
                   tagline={item.tagline}
+                  customHeight={customHeight}
                 />
               </div>
       )})}

@@ -268,13 +268,13 @@ const page = () => {
       {/* <Discover /> */}
       <Discover3 />
       <div className='my-5 text-white' >a</div>
-      <Carousel  heading={`Discover popular places in ${location}`} isTagLineNeeded={false} data={ParisNearby} />
+      <Carousel  heading={`Discover popular places in ${location}`} isTagLineNeeded={false} data={ParisNearby} customHeight={true} />
       <div className='flex flex-row gap-10 py-5'>
         <DaysSection noOfDays={noOfDays} setNoOfDays={setNoOfDays} />
         <Weather noOfDays={noOfDays} setNoOfDays={setNoOfDays} location={location} />
       </div>
       <Section />
-      <div className='flex flex-row-reverse	' >
+      <div className='flex flex-row-reverse'>
       <DefaultPagination  />
       </div>
       <LatestStoriesParis />
