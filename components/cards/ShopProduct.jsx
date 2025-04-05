@@ -8,6 +8,7 @@ import {
   Button,
 } from "@material-tailwind/react";
 import { shopping } from "@/models/shopping"
+import Link from 'next/link'
 
 const ShopProduct = () => {
   return (
@@ -40,6 +41,7 @@ const ShopProduct = () => {
               </Typography>
             </CardBody>
             <CardFooter className="pt-0">
+              <Link href={item.Linktobuy}>
               <Button
                 ripple={false}
                 fullWidth={true}
@@ -47,6 +49,7 @@ const ShopProduct = () => {
               >
                 Add to Cart
               </Button>
+              </Link>
             </CardFooter>
           </Card>
         ))

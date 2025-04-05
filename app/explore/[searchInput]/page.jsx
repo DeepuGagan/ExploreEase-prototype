@@ -123,7 +123,7 @@ const Section = () => {
               <div className="flex items-center ">
                 <FontAwesomeIcon icon={faHouseChimney} />
                 <span className='mx-1' >Accommodation</span>
-                <Chip size="sm" variant="faded">1</Chip>
+                <Chip size="sm" variant="faded">20</Chip>
               </div>
             }>
               <Card>
@@ -136,7 +136,7 @@ const Section = () => {
               <div className="flex items-start my-4">
                 <FontAwesomeIcon icon={faUtensils} />
                 <span className='mx-1' >Dining</span>
-                <Chip size="sm" variant="faded">2</Chip>
+                <Chip size="sm" variant="faded">15</Chip>
               </div>
             }>
               <Card>
@@ -149,7 +149,7 @@ const Section = () => {
               <div className="flex items-center ">
                 <FontAwesomeIcon icon={faPlane} />
                 <span className='mx-1' >Flights</span>
-                <Chip size="sm" variant="faded">3</Chip>
+                <Chip size="sm" variant="faded">17</Chip>
               </div>
             }>
               <Card>
@@ -162,7 +162,7 @@ const Section = () => {
               <div className="flex items-center ">
                 <FontAwesomeIcon icon={faCar} />
                 <span className='mx-1' >Transportation</span>
-                <Chip size="sm" variant="faded">4</Chip>
+                <Chip size="sm" variant="faded">16</Chip>
               </div>
             }>
               <Card>
@@ -175,7 +175,7 @@ const Section = () => {
               <div className="flex items-center ">
                 <FontAwesomeIcon icon={faUmbrellaBeach} />
                 <span className='mx-1' >Beach</span>
-                <Chip size="sm" variant="faded">5</Chip>
+                <Chip size="sm" variant="faded">15</Chip>
               </div>
             }>
               <Card>
@@ -188,7 +188,7 @@ const Section = () => {
               <div className="flex items-center ">
                 <FontAwesomeIcon icon={faTicketAlt} />
                 <span className='mx-1' >Entertainment</span>
-                <Chip size="sm" variant="faded">6</Chip>
+                <Chip size="sm" variant="faded">20</Chip>
               </div>
             }>
               <Card>
@@ -201,7 +201,7 @@ const Section = () => {
               <div className="flex items-center ">
                 <FontAwesomeIcon icon={faShoppingCart} />
                 <span className='mx-1' >Shopping</span>
-                <Chip size="sm" variant="faded">7</Chip>
+                <Chip size="sm" variant="faded">21</Chip>
               </div>
             }>
               <Card>
@@ -214,7 +214,7 @@ const Section = () => {
               <div className="flex items-center ">
                 <FontAwesomeIcon icon={faHospital} />
                 <span className='mx-1' >Health</span>
-                <Chip size="sm" variant="faded">8</Chip>
+                <Chip size="sm" variant="faded">18</Chip>
               </div>
             }>
               <Card>
@@ -227,7 +227,7 @@ const Section = () => {
               <div className="flex items-center ">
                 <FontAwesomeIcon icon={faPalette} />
                 <span className='mx-1' >Art & Culture</span>
-                <Chip size="sm" variant="faded">9</Chip>
+                <Chip size="sm" variant="faded">17</Chip>
               </div>
             }>
               <Card>
@@ -240,7 +240,7 @@ const Section = () => {
               <div className="flex items-center ">
                 <FontAwesomeIcon icon={faHiking} />
                 <span className='mx-1' >Outdoor Activities</span>
-                <Chip size="sm" variant="faded">10+</Chip>
+                <Chip size="sm" variant="faded">20+</Chip>
               </div>
             }>
               <Card>

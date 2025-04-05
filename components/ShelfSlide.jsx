@@ -12,54 +12,50 @@ import { EffectCards, Autoplay } from "swiper/modules";
 const SlideShelf = ({sanValue}) => {
     
     const [swiperRef, setSwiperRef] = useState(null);
-    const CardList = [{
-        location: 'Rome, Italy',
-        name: 'Vatican Museums, Sistine Chapel &amp; St Peter’s Basilica Guided Tour',
-        img: 'https://www.tripsavvy.com/thmb/x1VjfHkIcxv4wghYEp3T-s0nLHA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/paris-plaza-athenee-cour-jardin-ganberoni-22da38f352604c98bae42e6a369d439c.jpg',
-        likes: '32,265',
-        price:'₹6,810.47'
-    },
-    {
-        location: 'London, England',
-        name: 'Tuscany Day Trip from Florence: Siena, San Gimignano, Pisa and Lunch at a Winery',
-        img: 'https://media.tacdn.com/media/attractions-splice-spp-360x240/07/aa/5c/71.jpg',
-        likes: '32,265',
-        price:'₹9,663.50'
-    },
-    {
-        location: 'Cancun, Riviera Maya & the Yucatan',
-        name: 'Stonehenge, Windsor Castle, and Bath from London',
-        img: 'https://media.tacdn.com/media/attractions-splice-spp-360x240/0b/74/4d/ab.jpg',
-        likes: '32,265',
-        price:'₹10,587.56'
-    }, {
-        location: 'Paris, Île-de-France',
-        name: 'Chichen Itza, Cenote and Valladolid All-Inclusive Tour',
-        img: 'https://media.tacdn.com/media/attractions-splice-spp-360x240/12/46/e6/24.jpg',
-        likes: '32,265',
-        price:'₹4,722.88'
-    },
-    {
-        location: 'Paris, Île-de-France',
-        name: 'Chichen Itza, Cenote and Valladolid All-Inclusive Tour',
-        img: 'https://media.tacdn.com/media/attractions-splice-spp-360x240/12/46/e6/24.jpg',
-        likes: '32,265',
-        price:'₹4,722.88'
-    },
-    {
-        location: 'Paris, Île-de-France',
-        name: 'Chichen Itza, Cenote and Valladolid All-Inclusive Tour',
-        img: 'https://media.tacdn.com/media/attractions-splice-spp-360x240/12/46/e6/24.jpg',
-        likes: '32,265',
-        price:'₹4,722.88'
-    },
-    {
-        location: 'Paris, Île-de-France',
-        name: 'Chichen Itza, Cenote and Valladolid All-Inclusive Tour',
-        img: 'https://media.tacdn.com/media/attractions-splice-spp-360x240/12/46/e6/24.jpg',
-        likes: '32,265',
-        price:'₹4,722.88'
-    }];
+    const CardList = [
+        {
+            location: "Musee d'Orsay, 1 Rue De La Legion d'Honneur, 75007 Paris France",
+            name: "The d'Orsay Museum",
+            img: 'https://media.tacdn.com/media/attractions-splice-spp-674x446/10/26/7a/07.jpg',
+            likes: '3265',
+            price:'€35'
+          },
+            {
+            location: "Louvre Pyramid 75001 Paris, France",
+            name: "Louvre Museum",
+            img: 'https://media.tacdn.com/media/attractions-splice-spp-360x240/07/16/d6/53.jpg',
+            likes: '8765',
+            price:'€132.50'
+          },
+            {
+            location: "45 Av. de la Bourdonnais, 75007 Paris, France",
+            name: "Versailles Palace and Giverny Monet House",
+            img: 'https://media.tacdn.com/media/attractions-splice-spp-674x446/09/89/4a/64.jpg',
+            likes: '1732',
+            price:'€240.60'
+          },
+            {
+            location: "12 Av. George V, 75008 Paris, France",
+            name: "Horse Cabaret Show",
+            img: 'https://media.tacdn.com/media/attractions-splice-spp-674x446/0d/ce/07/91.jpg',
+            likes: '554',
+            price:'€139'
+          },
+            {
+            location: "1 Av. du Colonel Henri Rol-Tanguy, 75014 Paris, France",
+            name: "Paris Catacombs",
+            img: 'https://media.tacdn.com/media/attractions-splice-spp-674x446/10/2a/14/f6.jpg',
+            likes: '106',
+            price:'€55'
+          },
+            {
+            location: "Hotel La Ville 70 Rue de Rivoli, 75004 Paris, France",
+            name: "Night Walking Tour",
+            img: 'https://media.tacdn.com/media/attractions-splice-spp-360x240/07/1a/e0/71.jpg',
+            likes: '755',
+            price:'€15'
+          }
+        ];
     return (
         <>
         <div>
