@@ -15,17 +15,20 @@ import {
     DialogFooter,
 } from "@material-tailwind/react";
 
+import {hotelBook} from "@/models/hotel"
+import Link from 'next/link'
+
 const Hotel = () => {
     const [open, setOpen] = React.useState(false);
 
     const handleOpen = () => setOpen(!open);
     return (
         <>
-            {Array(9).fill('item').map((item, index) => 
+            {hotelBook.map((item, index) => 
                 <Card key={index} className="w-full max-w-[25rem]  shadow-lg hover:scale-105 hover:drop-shadow-2xl">
                     <CardHeader floated={false} color="blue-gray">
                         <img
-                            src="https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                            src={item.imgLink}
                             alt="ui/ux review check"
                         />
                         <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-tr from-transparent via-transparent to-black/60 " />
@@ -48,7 +51,7 @@ const Hotel = () => {
                     <CardBody>
                         <div className="mb-3 flex items-center justify-between">
                             <Typography variant="h5" color="blue-gray" className="font-medium">
-                                Wooden House, Florida
+                                {item.name}
                             </Typography>
                             <Typography
                                 color="blue-gray"
@@ -66,12 +69,11 @@ const Hotel = () => {
                                         clipRule="evenodd"
                                     />
                                 </svg>
-                                5.0
+                                {item.rating}
                             </Typography>
                         </div>
                         <Typography color="gray">
-                            Enter a freshly updated and thoughtfully furnished peaceful home
-                            surrounded by ancient trees, stone walls, and open meadows.
+                           {item.Description}
                         </Typography>
                         <div className="group mt-8 inline-flex flex-wrap items-center gap-3">
                             <Tooltip content="$129 per night">
@@ -162,38 +164,11 @@ const Hotel = () => {
                         </div>
                     </CardBody>
                     <CardFooter className="pt-3">
+                    <Link href={item.Linktobook}>
                         <Button size="lg" fullWidth={true} onClick={handleOpen}>
                             Reserve
                         </Button>
-                        <Dialog
-                            open={open}
-                            handler={handleOpen}
-                            animate={{
-                                mount: { scale: 1, y: 0 },
-                                unmount: { scale: 0.9, y: -100 },
-                            }}
-                        >
-                            <DialogHeader>Its a simple dialog.</DialogHeader>
-                            <DialogBody>
-                                The key to more success is to have a lot of pillows. Put it this way,
-                                it took me twenty five years to get these plants, twenty five years of
-                                blood sweat and tears, and I&apos;m never giving up, I&apos;m just
-                                getting started. I&apos;m up to something. Fan luv.
-                            </DialogBody>
-                            <DialogFooter>
-                                <Button
-                                    variant="text"
-                                    color="red"
-                                    onClick={handleOpen}
-                                    className="mr-1"
-                                >
-                                    <span>Cancel</span>
-                                </Button>
-                                <Button variant="gradient" color="green" onClick={handleOpen}>
-                                    <span>Confirm</span>
-                                </Button>
-                            </DialogFooter>
-                        </Dialog>
+                        </Link>
                     </CardFooter>
                 </Card>
             )}
