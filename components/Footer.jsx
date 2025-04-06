@@ -75,9 +75,9 @@ const Footer = () => {
       <div className="gap-6 justify-between md:flex">
         <div className="flex-1">
           <div className="max-w-xs">
-          <Image src = {logo} alt="logo" className="w-94" />
+            <Image src={logo} alt="logo" className="w-94" />
             <p className="leading-relaxed mt-2 text-[15px]">
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+              Explore Ease has been the industry's standard ever since the 2024.
             </p>
           </div>
           <form

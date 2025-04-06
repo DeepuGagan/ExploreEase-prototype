@@ -16,6 +16,8 @@ import SlideShelf from '@/components/ShelfSlide'
 import Link from 'next/link'
 import places from '@/models/Places'
 import MasonryGridGallery from '@/components/Gallery'
+import Image from 'next/image'
+import brandImage from "@/public/assets/images/BrandImage.png";
 
 
 const Home = () => {
@@ -35,10 +37,13 @@ const Home = () => {
       <MasonryGridGallery/>
       <LatestStories />
       <div className='m-2 text-white' >
-a
+        a
       </div>
       <Testimonials />
       <GridAwesome />
+      <div className="">
+        <Image src={brandImage} alt="logo" className="w-94" />
+      </div>
     </>
   )
 }

@@ -1,10 +1,11 @@
 import React from 'react'
-import K2 from '@/components/K2'
-
+// import K2 from '@/components/K2'
+import EventScheduler from '@/components/EventScheduler'
 
 const page = () => {
   return (
-    <K2 />
+    // <K2 />
+    <EventScheduler />
   )
 }
 
