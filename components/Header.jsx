@@ -45,37 +45,40 @@ const Header = () => {
   return (
     <>
       <nav className={isNavBlack ? 'black nav-item-container' : ''}>
-        <div className="logo">
-          <Image src={logo} alt="logoooo" />
-        </div>
+
+        <Link href={'/'} >
+          <div className="logo">
+            <Image src={logo} alt="logoooo" />
+          </div>
+        </Link>
 
 
         <div className='flex flex-row gap-8 ml-72 mt-2 '>
-  <Tooltip content={<Destinations />}>
-    <Button variant="bordered" className={!isNavBlack ? 'text-white hover:text-black border-1 hover:shadow-lg hover:bg-white hover:scale-125' : 'text-black hover:text-white hover:bg-black hover:scale-125'}>
-      <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2" />
-      Destinations
-    </Button>
-  </Tooltip>
-  <Tooltip content={<Inspiration />}>
-    <Button variant="bordered" className={!isNavBlack ? 'text-white hover:text-black border-1 hover:shadow-lg hover:bg-white hover:scale-125' : 'text-black hover:text-white hover:bg-black hover:scale-125'}>
-      <FontAwesomeIcon icon={faLightbulb} className="mr-2" />
-      Inspirations
-    </Button>
-  </Tooltip>
-  <Tooltip content={<Guides />}>
-    <Button variant="bordered" className={!isNavBlack ? 'text-white hover:text-black border-1 hover:shadow-lg hover:bg-white hover:scale-125' : 'text-black hover:text-white hover:bg-black hover:scale-125'}>
-      <FontAwesomeIcon icon={faBook} className="mr-2" />
-      Guides
-    </Button>
-  </Tooltip>
-  <Link href={'/planner'}>
-    <Button variant="bordered" className={!isNavBlack ? 'text-white hover:text-black border-1 hover:shadow-lg hover:bg-white hover:scale-125' : 'text-black hover:text-white hover:bg-black hover:scale-125'}>
-      <FontAwesomeIcon icon={faCalendarAlt} className="mr-2" />
-      Planner
-    </Button>
-  </Link>
-</div>
+          <Tooltip content={<Destinations />}>
+            <Button variant="bordered" className={!isNavBlack ? 'text-white hover:text-black border-1 hover:shadow-lg hover:bg-white hover:scale-125' : 'text-black hover:text-white hover:bg-black hover:scale-125'}>
+              <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2" />
+              Destinations
+            </Button>
+          </Tooltip>
+          <Tooltip content={<Inspiration />}>
+            <Button variant="bordered" className={!isNavBlack ? 'text-white hover:text-black border-1 hover:shadow-lg hover:bg-white hover:scale-125' : 'text-black hover:text-white hover:bg-black hover:scale-125'}>
+              <FontAwesomeIcon icon={faLightbulb} className="mr-2" />
+              Inspirations
+            </Button>
+          </Tooltip>
+          <Tooltip content={<Guides />}>
+            <Button variant="bordered" className={!isNavBlack ? 'text-white hover:text-black border-1 hover:shadow-lg hover:bg-white hover:scale-125' : 'text-black hover:text-white hover:bg-black hover:scale-125'}>
+              <FontAwesomeIcon icon={faBook} className="mr-2" />
+              Guides
+            </Button>
+          </Tooltip>
+          <Link href={'/planner'}>
+            <Button variant="bordered" className={!isNavBlack ? 'text-white hover:text-black border-1 hover:shadow-lg hover:bg-white hover:scale-125' : 'text-black hover:text-white hover:bg-black hover:scale-125'}>
+              <FontAwesomeIcon icon={faCalendarAlt} className="mr-2" />
+              Planner
+            </Button>
+          </Link>
+        </div>
         {/* <Destinations/> */}
       </nav>
     </>

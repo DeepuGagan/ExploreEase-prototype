@@ -23,6 +23,9 @@ import Carousel from '@/components/Carousel';
 import ParisNearby from '@/models/ParisNearby';
 import { usePathname } from 'next/navigation'
 import DefaultPagination from '@/components/Pagination';
+import Entertainment from '@/components/cards/Entertainment';
+
+
 
 function App() {
   const defaultContent =
@@ -192,8 +195,8 @@ const Section = () => {
               </div>
             }>
               <Card>
-                <CardBody>
-                  <App />
+                <CardBody className='flex flex-row flex-wrap justify-around gap-8 p-4 py-8 w-[1300px]' >
+                  <Entertainment />
                 </CardBody>
               </Card>
             </Tab>
