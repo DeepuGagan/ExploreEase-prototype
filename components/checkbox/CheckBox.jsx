@@ -10,7 +10,7 @@ export default function CheckBox({data=[]}) {
   return (
     <div className="flex flex-col gap-1 w-full">
       <CheckboxGroup
-        className="gap-1"
+        className="gap-1 font-bold"
         label="Choose Your Travel Preferences"
         orientation="horizontal"
         value={groupSelected}

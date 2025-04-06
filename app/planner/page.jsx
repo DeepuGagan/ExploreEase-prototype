@@ -7,8 +7,6 @@ import {parseDate, getLocalTimeZone} from "@internationalized/date";
 import {useDateFormatter} from "@react-aria/i18n";
 import IntroHelp from '@/components/IntroHelp';
 import IntroTravel from '@/components/IntroTravel';
-import CheckBox from '@/components/checkbox/CheckBox';
-import { interests } from '@/models/interests';
 import Link from 'next/link';
 import Destinations from '@/components/headerContents/Destinations';
 
@@ -160,7 +158,6 @@ const Step1 = () => {
   return(
    <>
    <IntroHelp/>
-   <CheckBox data={interests}/>
    </>
   )
 }
