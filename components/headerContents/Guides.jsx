@@ -58,7 +58,7 @@ const Guides = () => {
               </div>
               <div>
                 <p className="cursor-on-hover">
-                  Plan your trip with Elsewhere, by Lonely Planet
+                  Plan your trip with Elsewhere, by Explore Ease
                 </p>
               </div>
             </div>
@@ -168,7 +168,7 @@ const Guides = () => {
               Unlock the world
             </a>
             <p>
-              See where a Lonely Planet Membership takes you
+              See where a Explore Ease Membership takes you
             </p>
           </article>
         </div>

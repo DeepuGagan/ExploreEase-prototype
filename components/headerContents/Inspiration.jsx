@@ -374,7 +374,7 @@ const Inspiration = () => {
         <div className="shrink-0 ml-auto mr-0 w-60">
           <article className="relative">
             <img
-              alt="picture of Lonely Planet Newsletter"
+              alt="picture of Explore Ease Newsletter"
               className="max-w-full object-cover rounded-md aspect-[244/175]"
               data-nimg="1"
               decoding="async"
@@ -391,7 +391,7 @@ const Inspiration = () => {
               className="card-link mt-3 mb-2 flex gap-x-2.5 items-center hover:text-blue font-semibold"
               href="https://www.lonelyplanet.com/newsletter"
             >
-              Lonely Planet Newsletter
+              Explore Ease Newsletter
             </a>
             <p>
               Subscribe to our weekly newsletters to get the latest travel news, expert advice, and insider recommendations

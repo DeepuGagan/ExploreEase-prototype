@@ -43,12 +43,12 @@ const Discover3 = () => {
               <div className="w-full h-[750px] relative flex items-end styles_panel__pmQtB backdrop-brightness-50">
                 <a
                   className="flex items-end justify-between w-full mx-4 mb-6 text-lg leading-tight text-white group lg:mx-6 lg:mb-8 font-display lg:text-2xl card-link cursor-on-hover"
-                  href="/articles/best-road-trips-in-switzerland"
+                  href="/articles/best-road-trips-in-Paris"
                   role="button"
                   tabIndex="0"
                 >
                   <span className="jsx-c41fdbc9c6b06959 w-10/12 md:w-2/3">
-                    7 of the most spectacular road trips in Switzerland
+                    7 of the most spectacular road trips in Paris
                   </span>
                   <svg
                     aria-hidden="true"
@@ -92,12 +92,12 @@ const Discover3 = () => {
               <div className="w-full h-[750px] relative flex items-end styles_panel__pmQtB backdrop-brightness-50">
                 <a
                   className="flex items-end justify-between w-full mx-4 mb-6 text-lg leading-tight text-white group lg:mx-6 lg:mb-8 font-display lg:text-2xl card-link"
-                  href="/articles/guide-to-kyrgyzstan"
+                  href="/articles/guide-to-Paris"
                   role="button"
                   tabIndex="0"
                 >
                   <span className="jsx-c41fdbc9c6b06959 w-10/12 md:w-2/3">
-                    Everything you need to know about your first trip to Kyrgyzstan
+                    Everything you need to know about your first trip to Paris
                   </span>
                   <svg
                     aria-hidden="true"
@@ -146,7 +146,7 @@ const Discover3 = () => {
                   tabIndex="0"
                 >
                   <span className="jsx-c41fdbc9c6b06959 w-10/12 md:w-2/3">
-                    A long weekend in Nantucket is the perfect summer kick-off
+                    A long weekend in Paris is the perfect summer kick-off
                   </span>
                   <svg
                     aria-hidden="true"

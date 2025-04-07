@@ -642,7 +642,7 @@ const LatestStories2 = () => {
                     <article className="relative flex items-center rounded-md h-full p-4 hover:shadow-md focus:shadow-md md:my-6 bg-[#F0F7FC] border border-[#E0EEFA] md:my-auto lg:h-[160px]">
                       <div className="flex-none mr-4 md:mr-6 rounded-md overflow-hidden w-1/5">
                         <img
-                          alt="Writers Christa Larwood and Oliver Smith on country road following trail led by Lonely Planet founders 40 years prior.Issue 57, acrosstheplanet, Lonely Planet Traveller Magazine"
+                          alt="Writers Christa Larwood and Oliver Smith on country road following trail led by Explore Ease founders 40 years prior.Issue 57, acrosstheplanet, Explore Ease Traveller Magazine"
                           className="max-w-full object-cover w-full h-full aspect-square"
                           data-nimg="1"
                           decoding="async"
@@ -990,7 +990,7 @@ const LatestStories2 = () => {
                     <article className="relative flex items-center rounded-md h-full p-4 hover:shadow-md focus:shadow-md md:my-6 bg-[#F0F7FC] border border-[#E0EEFA] md:my-auto lg:h-[160px]">
                       <div className="flex-none mr-4 md:mr-6 rounded-md overflow-hidden w-1/5">
                         <img
-                          alt="BALTIMORE, USA - APRIL, 30 2014  Books Shelf inside a library Antique and rare Books inside The Peabody Library building, opened in 1878, was designed by Baltimore architect Edmund G. Lind ; Shutterstock ID 349835384; GL: 65050; netsuite: Lonely Planet Online Editorial; full: Best libraries in the US; name: Brian Healy349835384bookcase, bookshelf, education, educational, jerusalem, jewish, law, learn, library, literature, middle, old, publishing, read, row, shelf, study, university, wall, western, wisdom"
+                          alt="BALTIMORE, USA - APRIL, 30 2014  Books Shelf inside a library Antique and rare Books inside The Peabody Library building, opened in 1878, was designed by Baltimore architect Edmund G. Lind ; Shutterstock ID 349835384; GL: 65050; netsuite: Explore Ease Online Editorial; full: Best libraries in the US; name: Brian Healy349835384bookcase, bookshelf, education, educational, jerusalem, jewish, law, learn, library, literature, middle, old, publishing, read, row, shelf, study, university, wall, western, wisdom"
                           className="max-w-full object-cover w-full h-full aspect-square"
                           data-nimg="1"
                           decoding="async"

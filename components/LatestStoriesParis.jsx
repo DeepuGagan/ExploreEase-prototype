@@ -703,7 +703,7 @@ const LatestStoriesParis = () => {
                   <article className="relative flex items-center rounded-md h-full p-4 hover:shadow-md focus:shadow-md md:my-6 bg-[#F0F7FC] border border-[#E0EEFA] md:my-auto lg:h-[160px]">
                     <div className="flex-none mr-4 md:mr-6 rounded-md overflow-hidden w-1/5">
                       <img
-                        alt="Paris, france , may 28 2022 ; typical vintage book sellers from the Seine riverbanks in Paris , bookworm and touristic lifestyle; Shutterstock ID 2162521935; your: Brian Healy; gl: 65050; netsuite: Lonely Planet Online Editorial; full: Paris bouquinistes2162521935"
+                        alt="Paris, france , may 28 2022 ; typical vintage book sellers from the Seine riverbanks in Paris , bookworm and touristic lifestyle; Shutterstock ID 2162521935; your: Brian Healy; gl: 65050; netsuite: Explore Ease Online Editorial; full: Paris bouquinistes2162521935"
                         className="max-w-full object-cover w-full h-full aspect-square"
                         data-nimg="1"
                         decoding="async"

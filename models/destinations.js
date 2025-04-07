@@ -28,6 +28,10 @@ export const destinations = [
     value: "bangkok",
   },
   {
+    label: "Bangalore, India",
+    value: "bangalore",
+  },
+  {
     label: "Dubai, UAE",
     value: "dubai",
   },
