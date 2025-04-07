@@ -69,7 +69,7 @@ export const foodItems = [
   
     {
       Name: 'Chez Marianne',
-      img: 'https://scontent-iad3-1.cdninstagram.com/v/t51.29350-15/445423196_808058284256872_2958026908372418512_n.webp?stp=dst-jpg&_nc_cat=104&ccb=1-7&_nc_sid=18de74&_nc_ohc=oQDibFMBGQAQ7kNvgHNiVVc&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=AEQ6tj4EAAAA&oh=00_AYAWHFl21i5EVm24Wj3HvODjTHkirA46KBBiQH65TSKBoA&oe=66550906',
+      img: 'https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHJlc3RhdXJhbnR8ZW58MHx8MHx8fDA%3D',
       rating: '4',
       year: '1730',
       map: 'https://www.tripsavvy.com/best-falafel-in-paris-1618399#map',
