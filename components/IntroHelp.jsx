@@ -3,6 +3,8 @@ import React, { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlane, faHouseChimney, faBinoculars } from '@fortawesome/free-solid-svg-icons';
 import { Divider } from "@nextui-org/react";
+import {Slider} from "@nextui-org/react";
+
 import CheckBox from '@/components/checkbox/CheckBox';
 
 import { interests } from '@/models/interests';
@@ -110,10 +112,26 @@ const IntroHelp = () => {
       <div onClick={handler} >
         <Top />
       </div>
-      {
-        state && <CheckBox data={interests}/>
+      <div>
+        {
 
-      }
+
+          state && <>
+            <Slider
+              label="Price Range"
+              step={100}
+              minValue={0}
+              maxValue={10000}
+              defaultValue={[1000, 3000]}
+              formatOptions={{ style: "currency", currency: "USD" }}
+              className="max-w-md font-black text-xl"
+            />
+            <div className='text-white my-2' >a</div>
+            <CheckBox data={interests} />
+          </>
+        }
+
+      </div>
     </>
   )
 }

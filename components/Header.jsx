@@ -54,6 +54,12 @@ const Header = () => {
 
 
         <div className='flex flex-row gap-8 ml-72 mt-2 '>
+          <Link href={'/planner'}>
+            <Button variant="bordered" className={!isNavBlack ? 'text-white hover:text-black border-1 hover:shadow-lg hover:bg-white hover:scale-125' : 'text-black hover:text-white hover:bg-black hover:scale-125'}>
+              <FontAwesomeIcon icon={faCalendarAlt} className="mr-2" />
+              Planner
+            </Button>
+          </Link>
           <Tooltip content={<Destinations />}>
             <Button variant="bordered" className={!isNavBlack ? 'text-white hover:text-black border-1 hover:shadow-lg hover:bg-white hover:scale-125' : 'text-black hover:text-white hover:bg-black hover:scale-125'}>
               <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2" />
@@ -72,12 +78,6 @@ const Header = () => {
               Guides
             </Button>
           </Tooltip>
-          <Link href={'/planner'}>
-            <Button variant="bordered" className={!isNavBlack ? 'text-white hover:text-black border-1 hover:shadow-lg hover:bg-white hover:scale-125' : 'text-black hover:text-white hover:bg-black hover:scale-125'}>
-              <FontAwesomeIcon icon={faCalendarAlt} className="mr-2" />
-              Planner
-            </Button>
-          </Link>
         </div>
         {/* <Destinations/> */}
       </nav>

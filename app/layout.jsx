@@ -1,5 +1,5 @@
 'use client'
-import React, {useState} from 'react';
+import React, {useState,useEffect} from 'react';
 import '@/styles/globals.css'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
@@ -8,6 +8,7 @@ import {Divider} from "@nextui-org/divider";
 import { ErrorBoundary } from 'next/dist/client/components/error-boundary';
 import pageImage from "@/public/assets/images/page.png";
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 
 // export const metadata = {
 //   title: 'Explore Ease',
@@ -16,12 +17,25 @@ import Image from 'next/image';
 
 export default function RootLayout({ children }) {
   const [state,setState] = useState(true)
-  const handleClick = () => setState(false)
+  const pathname = usePathname()
+  console.log(pathname)
+
+  const handleClick = () => {
+    setState(false)
+  }
+
+  useEffect(() => {
+    if (pathname === '/planner') {
+      setState(false)
+    }
+  }, [pathname])
+  console.log(state)
+
   return (
     <html lang="en" className='light'>
 
       {
-        state ?
+        state && pathname!=='/planner' ?
           <body>
             <div className="relative w-full h-screen overflow-hidden">
               <Image
