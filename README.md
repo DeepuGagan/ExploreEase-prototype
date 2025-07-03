@@ -1,6 +1,16 @@
-# ExploreEase: Modern Travel Planning Platform
+<div align="center">
 
-![ExploreEase Logo](https://via.placeholder.com/800x200?text=ExploreEase)
+# ✈️ ExploreEase: Modern Travel Planning Platform ✈️
+
+**Elevating the Travel & Leisure Experience**
+
+*An innovative prototype integration for the Travel & Leisure brand ecosystem*
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
+[![Hackathon Project](https://img.shields.io/badge/Hackathon-Project-orange)]()
+
+</div>
 
 ## 📹 App Preview
 
@@ -12,7 +22,18 @@ Experience the ExploreEase web application in action! The video showcases the ke
 
 ## 🌟 Overview
 
-ExploreEase is a prototype of a comprehensive travel planning platform designed to simplify trip organization and discovery. **Created as part of an organizational hackathon/innovation initiative**, this project demonstrates rapid ideation and implementation of travel technology concepts. Built with Next.js and modern web technologies, it offers an intuitive interface for travelers to discover destinations, plan itineraries, and book experiences with ease.
+ExploreEase is a sophisticated prototype that seamlessly integrates with the **Travel & Leisure** brand ecosystem, revolutionizing how travelers discover, plan, and experience destinations worldwide. **Created as part of an organizational hackathon/innovation initiative**, this project demonstrates the potential for next-generation digital experiences in the travel sector.
+
+### 🌍 Travel & Leisure Brand Integration
+
+This prototype showcases how digital innovation can enhance the iconic Travel & Leisure brand experience:
+
+- **Content-Driven Exploration**: Leverages Travel & Leisure's authoritative travel content and expert recommendations
+- **Brand-Aligned Design**: Features premium aesthetics that reflect Travel & Leisure's sophisticated visual identity
+- **Curated Experiences**: Highlights exclusive partnerships and curated travel experiences that align with the brand's premium positioning
+- **Connected Ecosystem**: Demonstrates how the digital platform can connect with the broader Travel & Leisure media network
+
+Built with Next.js and modern web technologies, ExploreEase delivers an intuitive interface that brings the Travel & Leisure brand promise to life in digital form.
 
 
 ## 🚧 Development Status & Roadmap
