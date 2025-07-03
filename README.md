@@ -2,6 +2,12 @@
 
 ![ExploreEase Logo](https://via.placeholder.com/800x200?text=ExploreEase)
 
+## 📹 App Preview
+
+<video src="public/assets/videos/exploreEase WebApp Preview.mp4" controls width="800"></video>
+
+Experience the ExploreEase web application in action! The video above showcases the key features and intuitive user interface of our travel planning platform.
+
 ## 🌟 Overview
 
 ExploreEase is a prototype of a comprehensive travel planning platform designed to simplify trip organization and discovery. **Created as part of an organizational hackathon/innovation initiative**, this project demonstrates rapid ideation and implementation of travel technology concepts. Built with Next.js and modern web technologies, it offers an intuitive interface for travelers to discover destinations, plan itineraries, and book experiences with ease.
