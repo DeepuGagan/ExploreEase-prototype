@@ -4,9 +4,14 @@
 
 ## 📹 App Preview
 
-[![ExploreEase App Preview](https://via.placeholder.com/800x450/1a1a1a/FFFFFF?text=ExploreEase+App+Preview+-+Click+to+Watch+Video)](https://github.com/DeepuGagan/ExploreEase-prototype/raw/dev/public/assets/videos/exploreEase%20WebApp%20Preview.mp4)
+[![ExploreEase App Preview](https://via.placeholder.com/800x450/1a1a1a/FFFFFF?text=ExploreEase+App+Preview)](public/assets/videos/exploreEase%20WebApp%20Preview.mp4)
 
-[▶️ Click to watch the demo video](https://github.com/DeepuGagan/ExploreEase-prototype/raw/dev/public/assets/videos/exploreEase%20WebApp%20Preview.mp4)
+**[View Demo Video](public/assets/videos/exploreEase%20WebApp%20Preview.mp4)** - Check out our application walkthrough! 🚀
+
+> **Note:** The video file (66MB) is stored in this repository. To view it:
+> 1. Clone the repository locally
+> 2. Navigate to `public/assets/videos/`
+> 3. Open the video file in your preferred media player
 
 Experience the ExploreEase web application in action! The video showcases the key features and intuitive user interface of our travel planning platform.
 
