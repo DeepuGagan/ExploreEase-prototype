@@ -4,9 +4,11 @@
 
 ## 📹 App Preview
 
-<video src="public/assets/videos/exploreEase WebApp Preview.mp4" controls width="800"></video>
+[![ExploreEase App Preview](https://via.placeholder.com/800x450/1a1a1a/FFFFFF?text=ExploreEase+App+Preview+-+Click+to+Watch+Video)](https://github.com/DeepuGagan/ExploreEase-prototype/raw/dev/public/assets/videos/exploreEase%20WebApp%20Preview.mp4)
 
-Experience the ExploreEase web application in action! The video above showcases the key features and intuitive user interface of our travel planning platform.
+[▶️ Click to watch the demo video](https://github.com/DeepuGagan/ExploreEase-prototype/raw/dev/public/assets/videos/exploreEase%20WebApp%20Preview.mp4)
+
+Experience the ExploreEase web application in action! The video showcases the key features and intuitive user interface of our travel planning platform.
 
 ## 🌟 Overview
 
